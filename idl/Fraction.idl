@@ -1,0 +1,13 @@
+module FractionIDL
+{
+    struct FractionRep
+    {
+        long long numerator;
+        long long denominator;
+    };
+
+    interface Fraction
+    {
+        FractionRep add(in FractionRep lhs, in FractionRep rhs);
+    };
+};

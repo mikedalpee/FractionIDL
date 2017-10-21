@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FractionIDL:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FractionIDL_jar</output-path>
+    <root id="archive" name="FractionIDL.jar">
+      <element id="module-output" name="FractionIDL" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
